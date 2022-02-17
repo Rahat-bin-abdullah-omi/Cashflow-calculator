@@ -95,7 +95,7 @@ document.getElementById('save-btn').addEventListener('click', function () {
     const restSavings = restBalance - priceSaving;
 
     if (saveInput <= 0) {
-        document.getElementById('saving-warning').innerText = 'String, Zero and Negative not allow!';
+        document.getElementById('saving-warning').innerText = 'String, Zero and Negative value not allow!';
         warningColor('saving-warning');
     }
 
