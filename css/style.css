@@ -105,7 +105,7 @@ img{
 /* warning */
 .warning {
     white-space: nowrap;
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 #saving-warning{
     display: block;

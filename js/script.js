@@ -71,7 +71,7 @@ document.getElementById('calc-btn').addEventListener('click', function () {
         // error messages
         else if (totalExpense > incomeInput) {
             defaultValue('price-total', 'price-balance');
-            document.getElementById('expense-warning').innerText = 'expenses overlap income!';
+            document.getElementById('expense-warning').innerText = 'Expenses exceeds income! Should be more cannier.';
             warningColor('expense-warning');
         }
         else {
@@ -110,7 +110,7 @@ document.getElementById('save-btn').addEventListener('click', function () {
         // error message
         else {
             defaultValue('price-saving', 'price-remaining');
-            document.getElementById('saving-warning').innerText = 'savings overlap rest amount!';
+            document.getElementById('saving-warning').innerText = 'Sorry! You do not have enough money for saving';
             warningColor('saving-warning');
         }
     }
